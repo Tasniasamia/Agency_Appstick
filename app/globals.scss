@@ -1,0 +1,246 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+:root{
+  --badge:"M0 4.00001C0 1.79087 1.79086 0 4 0H420C422.209 0 424 1.79086 424 4V464.731H196.116C183.015 464.731 171.011 457.415 165.008 445.77L147.549 411.909C134.616 386.826 98.8396 386.577 85.5584 411.477L67.0362 446.203C60.9532 457.607 49.08 464.731 36.1545 464.731H0V4.00001Z",
+  --shape:"M320 378H24C10.7452 378 0 367.255 0 354V24C0 10.7452 10.7452 0 24 0H378C391.255 0 402 10.7451 402 24V296C402 309.255 391.255 320 378 320H368C354.745 320 344 330.745 344 344V354C344 367.255 333.255 378 320 378Z"
+}
+.custom-shape {
+  clip-path: path("M0 4.00001C0 1.79087 1.79086 0 4 0H420C422.209 0 424 1.79086 424 4V464.731H196.116C183.015 464.731 171.011 457.415 165.008 445.77L147.549 411.909C134.616 386.826 98.8396 386.577 85.5584 411.477L67.0362 446.203C60.9532 457.607 49.08 464.731 36.1545 464.731H0V4.00001Z");
+}
+
+.custom-shape2 {
+  clip-path: path("M320 378H24C10.7452 378 0 367.255 0 354V24C0 10.7452 10.7452 0 24 0H378C391.255 0 402 10.7451 402 24V296C402 309.255 391.255 320 378 320H368C354.745 320 344 330.745 344 344V354C344 367.255 333.255 378 320 378Z");
+ 
+  
+
+}
+
+
+ 
+
+.container {
+  max-width: 1320px !important;
+  margin: auto;
+
+  @media screen and (max-width: 1320px) {
+    padding: 0 20px;
+  }
+
+  @media screen and (max-width: 1280px) {
+    padding: 0 10px;
+  }
+}
+
+.nav-link {
+  font-family: Noto Sans JP;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26.06px;
+  
+}
+.footer-title{
+  font-family: Noto Sans JP;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color:#2B2B2B;
+  
+  
+}
+
+.footer-text{
+  font-family: Noto Sans JP;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.top-title{
+color: #E67529;
+font-family: "Noto Sans JP";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 21.6px */
+text-transform: capitalize;
+}
+.header-1-bold{
+  font-family: Noto Sans JP;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 83.2px;
+  }
+.header-2-bold{
+font-family: "Noto Sans JP";
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+.header-4-bold{
+font-family: Noto Sans JP;
+font-size: 28px;
+font-weight: 700;
+line-height: 33.6px;
+text-align: left;
+
+}
+
+.header-5-medium{
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+text-align: left;
+
+}
+.header-6-normal{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+}
+.header-6-medium{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  
+  }
+.paragraph-1-normal{
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+}
+.paragraph-1-normal-4{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+letter-spacing: 0.04em;
+
+}
+.paragraph-1-notoSans{
+font-family: Noto Sans JP;
+font-size: 16px;
+font-weight: 500;
+line-height: 23.17px;
+
+
+}
+.blog-subtitle{
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+
+}
+.table-text-bold{
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+
+}
+.table-text2-normal{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  
+  
+  }
+
+.all-view{
+font-family: "Noto Sans JP";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+text-decoration-line: underline;
+text-transform: capitalize;
+}
+.bmi-calculator .ant-select-arrow {
+  color: #f90000 !important;
+  font-weight: bold;
+}
+.bmi-calculator .ant-input {
+  // @apply px-5 py-[15px] #{!important};
+  // padding:18px 0px!important
+}
+.bmi-calculator .ant-input-number {
+  width:100%!important;
+  padding:10px 0px!important
+
+}
+.bmi-calculator .ant-select-single {
+  font-size: 14px;
+  height: 52px;
+}
+.shape-card1{
+  clip-path: polygon(0 0, 0 100%, 100% 0);
+
+}
+.shape-card2{
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 51% 76%, 0% 75%);
+
+}
+.ant-rate {
+  color: #E67529!important;
+  font-size: 16px!important;
+ 
+}
+.swipe_slide {
+  .swiper-pagination-bullet-active {
+    background-color: #f8991f !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-2-bold {
+    font-size: 32px;
+  }
+  .header-1-bold {
+    font-size: 48px;
+  }
+}
+
+@property --angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+.card {
+  animation:3s rotate linear infinite ;
+  padding: 3px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  
+  
+  background-image: linear-gradient(78.29deg, #FFFFFF 38.6%, rgba(78, 0, 255, 0.1) 44.34%);
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.hand{
+  perspective: 100px;
+}
+
+
+
+// contact design
