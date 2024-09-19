@@ -1,3 +1,4 @@
+import Footer from "@/app/components/site/layout/footer";
 import Header from "@/app/components/site/layout/header";
 
 
@@ -6,6 +7,7 @@ const Layout = ({ children }) => {
         <>
             <Header/>
             {children}
+            <Footer/>
         </>
     );
 };
