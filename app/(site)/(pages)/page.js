@@ -3,8 +3,7 @@
 const page = () => {
     return (
         <div className="container">
-        FIrst page
-        3rd page
+      No  Pages into here
         </div>
 
     );
