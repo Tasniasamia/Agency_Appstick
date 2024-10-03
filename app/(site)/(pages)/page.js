@@ -1,9 +1,10 @@
+import Hero from "@/app/components/site/home/hero";
 
 
 const page = () => {
     return (
-        <div className="container">
-      No  Pages into here
+        <div>
+          <Hero/>
         </div>
 
     );

@@ -17,6 +17,7 @@ module.exports = {
         textcolor: "#2B2B2B",
         secondarytext:"#534C4C",
         textcolor2:" #534C4C",
+        primarytextColor:"#888AA0"
         
       },
       letterSpacing: {
